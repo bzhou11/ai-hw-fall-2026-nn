@@ -1,0 +1,44 @@
+{
+    "MLP (No Aug)": {
+        "test_accuracy_percent": 97.98,
+        "macro_auc": 0.9995,
+        "macro_precision": 0.98,
+        "macro_recall": 0.9794,
+        "macro_f1": 0.9796
+    },
+    "MLP (With Aug)": {
+        "test_accuracy_percent": 98.48,
+        "macro_auc": 0.9999,
+        "macro_precision": 0.9849,
+        "macro_recall": 0.9845,
+        "macro_f1": 0.9847
+    },
+    "CNN (No Aug)": {
+        "test_accuracy_percent": 99.09,
+        "macro_auc": 0.9999,
+        "macro_precision": 0.991,
+        "macro_recall": 0.9908,
+        "macro_f1": 0.9909
+    },
+    "CNN (With Aug)": {
+        "test_accuracy_percent": 99.3,
+        "macro_auc": 1.0,
+        "macro_precision": 0.9931,
+        "macro_recall": 0.993,
+        "macro_f1": 0.993
+    },
+    "Transformer (No Aug)": {
+        "test_accuracy_percent": 98.02,
+        "macro_auc": 0.9997,
+        "macro_precision": 0.98,
+        "macro_recall": 0.98,
+        "macro_f1": 0.98
+    },
+    "Transformer (With Aug)": {
+        "test_accuracy_percent": 97.46,
+        "macro_auc": 0.9996,
+        "macro_precision": 0.9749,
+        "macro_recall": 0.9741,
+        "macro_f1": 0.9744
+    }
+}
