@@ -8,11 +8,11 @@ The Jupyter notebook was constructed and run in Google Colab with a T4 GPU.
 **Testing Results:**   
 
 **for training performance:**
-- train_performance.png: training/validation loss and accuracy curves for all three models with/without augmentation.  
-- train_performance_stats.json: all training epoch statistics. 
+- all_results/train/train_performance.png: training/validation loss and accuracy curves for all three models with/without augmentation.  
+- all_results/train/train_performance_stats.json: all training epoch statistics. 
 
 **for testing performance:**
-- test_performance_no_augmentation.png: testing performance for models trained on data without augmentation. 
-- test_performance_augmentation.png: testing performance for models trained on data with augmentation.  
-- Confusion_Matrix.png: confusion matrix for all three models with/without augmentation.  
-- test_performance_stats.json: all testing performance statistics, accuracy, precision, recall, F1, auc. 
+- all_results/test/test_performance_no_augmentation.png: testing performance for models trained on data without augmentation. 
+- all_results/test/test_performance_augmentation.png: testing performance for models trained on data with augmentation.  
+- all_results/test/Confusion_Matrix.png: confusion matrix for all three models with/without augmentation.  
+- all_results/test/test_performance_stats.json: all testing performance statistics, accuracy, precision, recall, F1, auc. 
